@@ -1,4 +1,4 @@
-# Auth module for DronePHP
+# NotFound module for DronePHP
 ### Make it easy
 
 This software is a module for [DronePHP](https://github.com/Pleets/DronePHP).
