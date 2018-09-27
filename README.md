@@ -7,12 +7,14 @@ Visit [DronePHP official](http://www.dronephp.com)
 
 ## Installation
 
+Change your index.php to
+
 ```php
 try
 {
-	$config = include "config/application.config.php";
-	$mvc = new Drone\Mvc\Application($config);
-	$mvc->run();
+    $config = include "config/application.config.php";
+    $mvc = new Drone\Mvc\Application($config);
+    $mvc->run();
 }
 # to load only the error view
 catch (Drone\Mvc\Exception\ViewNotFoundException $e)
